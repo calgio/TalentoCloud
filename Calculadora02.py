@@ -14,7 +14,7 @@ aux = True
 
 while aux:
 
-    op = int(input("Digite o operador para operação: 1 = Soma; 2 = Subtação; 3 = Multiplicação; 4 = Divisão; 0 - Fechar Calculadora."))
+    op = int(input("Digite o operador para operação: 1 = Soma; 2 = Subtação; 3 = Multiplicação; 4 = Divisão; 0 - Sair."))
 
     if op == 1:
         num1 = float(input("Digite o primeiro número para calcular:"))
